@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C7F39D98-BB9D-43CE-A1F8-B525407F55AA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SmartPartsFrame</RootNamespace>
+    <AssemblyName>SmartPartsFrame Application</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>SmartPartBase_SmartPartIcon.ico</ApplicationIcon>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\Plugin\IPlugin.cs" />
+    <Compile Include="Model\Plugin\PluginNotFoundException.cs" />
+    <Compile Include="Model\Plugin\PluginProvider.cs" />
+    <Compile Include="Model\Plugin\eventArgs\PluginListChangedEventArgs.cs" />
+    <Compile Include="Model\Plugin\eventArgs\PluginLoadedEventArgs.cs" />
+    <Compile Include="Model\Plugin\eventArgs\PluginLoadingBaseEventArgs.cs" />
+    <Compile Include="Model\Plugin\eventArgs\PluginUnLoadedEventArgs.cs" />
+    <Compile Include="Model\Security\UserIdentity.cs" />
+    <Compile Include="Model\DatabaseTools\SQL\ConnectionModel.cs" />
+    <Compile Include="Model\DatabaseTools\SQL\SqlModel.cs" />
+    <Compile Include="Model\DefaultModel.cs" />
+    <Compile Include="Model\FileSystemModel.cs" />
+    <Compile Include="Patterns\Command\CommandBase.cs" />
+    <Compile Include="Patterns\Command\CommandReceiver.cs" />
+    <Compile Include="Patterns\Command\Concrete - MappingCommand.cs" />
+    <Compile Include="Patterns\Command\Concrete - MappingInvoker.cs" />
+    <Compile Include="Patterns\Command\Concrete - MappingCommandReceiver.cs" />
+    <Compile Include="Patterns\Command\Conctete - TagCommand.cs" />
+    <Compile Include="Patterns\Composite\ComponentBase.cs" />
+    <Compile Include="Patterns\Composite\Concrete - CompositeObject.cs" />
+    <Compile Include="Patterns\EventBasedAsynchronousPattern\AsynchronousActionsBase.cs" />
+    <Compile Include="Patterns\EventBasedAsynchronousPattern\eventArgs\AsynchronousActionsComletedEventArgs.cs" />
+    <Compile Include="Patterns\EventBasedAsynchronousPattern\eventArgs\AsynchronousActionsEventArgs.cs" />
+    <Compile Include="Patterns\EventBasedAsynchronousPattern\Concrete - ActionAsync.cs" />
+    <Compile Include="Patterns\FactoryMethod\FactoryMethodCreatorBase.cs" />
+    <Compile Include="Patterns\FactoryMethod\ConcreteProduct - ConcreteCreator.cs" />
+    <Compile Include="Patterns\FactoryMethod\GenericCreator.cs" />
+    <Compile Include="Patterns\FactoryMethod\FactoryMethodProductBase.cs" />
+    <Compile Include="Patterns\Singleton\Singletone.cs" />
+    <Compile Include="Patterns\Strategy\StrategyContext.cs" />
+    <Compile Include="Patterns\Strategy\StrategyBase.cs" />
+    <Compile Include="Presenter\DefaultPresenter.cs" />
+    <Compile Include="Presenter\TreePresenter.cs" />
+    <Compile Include="SmartPartsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmartPartsForm.Designer.cs">
+      <DependentUpon>SmartPartsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmartPartsForm.resx">
+      <DependentUpon>SmartPartsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\SmartParts\Common\SmartPartBase.resx">
+      <DependentUpon>SmartPartBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\SmartParts\DefaultSmartPart.resx">
+      <DependentUpon>DefaultSmartPart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\SmartParts\General\TreeSmartPart.resx">
+      <DependentUpon>TreeSmartPart.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram.cd" />
+    <None Include="Configuration\App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="View\Interface\IDefaultView.cs" />
+    <Compile Include="View\Interface\ISmartPartView.cs" />
+    <Compile Include="View\Interface\ISmartPartViewBase.cs" />
+    <Compile Include="View\Interface\ITreeSmartPart.cs" />
+    <Compile Include="View\SmartParts\Common\SmartPartHost.cs">
+    </Compile>
+    <Compile Include="View\SmartParts\Common\SmartPartAcivatedEventArgs.cs" />
+    <Compile Include="View\SmartParts\DefaultSmartPart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\SmartParts\DefaultSmartPart.Designer.cs">
+      <DependentUpon>DefaultSmartPart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\SmartParts\Common\SmartPartBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\SmartParts\Common\SmartPartBase.Designer.cs">
+      <DependentUpon>SmartPartBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\SmartParts\General\TreeSmartPart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\SmartParts\General\TreeSmartPart.Designer.cs">
+      <DependentUpon>TreeSmartPart.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Model\Security\How to use UserIdentity class.txt" />
+    <Content Include="Model\Description.txt" />
+    <Content Include="Patterns\Command\Description.txt" />
+    <Content Include="Patterns\Composite\Description.txt" />
+    <Content Include="Patterns\FactoryMethod\Description.txt" />
+    <Content Include="Presenter\Description.txt" />
+    <None Include="Resources\SmartPartBase_SmartPartIcon.ico" />
+    <Content Include="SmartPartBase_SmartPartIcon.ico" />
+    <Content Include="View\Description.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

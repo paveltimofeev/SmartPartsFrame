@@ -1,0 +1,29 @@
+D:\My Documents\Visual Studio 2008\Projects\SmartPartsFrame\SmartPartsFrame\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\Visual Studio 2008\Projects\SmartPartsFrame\SmartPartsFrame\obj\Debug\SmartPartsFrame.Properties.Resources.resources
+D:\My Documents\Visual Studio 2008\Projects\SmartPartsFrame\SmartPartsFrame\obj\Debug\SmartPartsFrame.csproj.GenerateResource.Cache
+D:\My Documents\Visual Studio 2008\Projects\SmartPartsFrame\SmartPartsFrame\obj\Debug\SmartPartsFrame.SmartParts.Common.SmartPartBase.resources
+D:\My Documents\Visual Studio 2008\Projects\SmartPartsFrame\SmartPartsFrame\obj\Debug\SmartPartsFrame.View.SmartParts.DefaultSmartPart.resources
+D:\My Documents\Visual Studio 2008\Projects\SmartPartsFrame\SmartPartsFrame\obj\Debug\SmartPartsFrame.SmartPartsForm.resources
+D:\My Documents\Visual Studio 2008\Projects\SmartPartsFrame\SmartPartsFrame\obj\Debug\SmartPartsFrame.View.SmartParts.General.TreeSmartPart.resources
+D:\My Documents\Visual Studio 2008\Projects\SmartPartsFrame\SmartPartsFrame\bin\Debug\SmartPartsFrame Application.exe.config
+D:\My Documents\Visual Studio 2008\Projects\SmartPartsFrame\SmartPartsFrame\bin\Debug\SmartPartsFrame Application.exe
+D:\My Documents\Visual Studio 2008\Projects\SmartPartsFrame\SmartPartsFrame\bin\Debug\SmartPartsFrame Application.pdb
+D:\My Documents\Visual Studio 2008\Projects\SmartPartsFrame\SmartPartsFrame\obj\Debug\SmartPartsFrame Application.exe
+D:\My Documents\Visual Studio 2008\Projects\SmartPartsFrame\SmartPartsFrame\obj\Debug\SmartPartsFrame Application.pdb
+C:\Users\Pavel\Desktop\My Dropbox\Algorithms\skin analize\SmartPartsFrame\SmartPartsFrame\bin\Debug\SmartPartsFrame Application.exe.config
+C:\Users\Pavel\Desktop\My Dropbox\Algorithms\skin analize\SmartPartsFrame\SmartPartsFrame\obj\Debug\SmartPartsFrame Application.exe
+C:\Users\Pavel\Desktop\My Dropbox\Algorithms\skin analize\SmartPartsFrame\SmartPartsFrame\obj\Debug\SmartPartsFrame Application.pdb
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Algorithms\Skin analize\SmartPartsFrame\SmartPartsFrame\bin\Debug\SmartPartsFrame Application.exe.config
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Algorithms\Skin analize\SmartPartsFrame\SmartPartsFrame\obj\Debug\SmartPartsFrame Application.exe
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Algorithms\Skin analize\SmartPartsFrame\SmartPartsFrame\obj\Debug\SmartPartsFrame Application.pdb
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Algorithms\Skin analize\SmartPartsFrame\SmartPartsFrame\bin\Debug\SmartPartsFrame Application.exe
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Algorithms\Skin analize\SmartPartsFrame\SmartPartsFrame\bin\Debug\SmartPartsFrame Application.pdb
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Algorithms\Skin analize\SmartPartsFrame\SmartPartsFrame\obj\Debug\ResolveAssemblyReference.cache
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Algorithms\Skin analize\SmartPartsFrame\SmartPartsFrame\obj\Debug\SmartPartsFrame.Properties.Resources.resources
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Algorithms\Skin analize\SmartPartsFrame\SmartPartsFrame\obj\Debug\SmartPartsFrame.SmartPartsForm.resources
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Algorithms\Skin analize\SmartPartsFrame\SmartPartsFrame\obj\Debug\SmartPartsFrame.SmartParts.Common.SmartPartBase.resources
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Algorithms\Skin analize\SmartPartsFrame\SmartPartsFrame\obj\Debug\SmartPartsFrame.View.SmartParts.DefaultSmartPart.resources
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Algorithms\Skin analize\SmartPartsFrame\SmartPartsFrame\obj\Debug\SmartPartsFrame.View.SmartParts.General.TreeSmartPart.resources
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Algorithms\Skin analize\SmartPartsFrame\SmartPartsFrame\obj\Debug\GenerateResource-ResGen.read.1.tlog
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Algorithms\Skin analize\SmartPartsFrame\SmartPartsFrame\obj\Debug\GenerateResource-ResGen.read.4.tlog
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Algorithms\Skin analize\SmartPartsFrame\SmartPartsFrame\obj\Debug\GenerateResource-ResGen.write.1.tlog

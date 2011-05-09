@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="SqlModel&#xD;&#xA;Proxy-класс для работы с базами данных MSSQL">
+    <Position X="4.75" Y="6.688" Height="0.542" Width="1.544" />
+  </Comment>
+  <Comment CommentText="ConnectionModel&#xD;&#xA;ThreadSafe Singleton-класс предоставляющий глобальную точку доступа к строке подключения">
+    <Position X="6.75" Y="6.667" Height="0.792" Width="1.908" />
+  </Comment>
+  <Comment CommentText="Presenter, содержит в себе ссылку на Model, а также при инициализации  получает конкретную реализацию IView. Реагируя на вызовы View, &quot;общается&quot; с Model и изменяет View.">
+    <Position X="0.521" Y="4.833" Height="1.104" Width="2.106" />
+  </Comment>
+  <Comment CommentText="Spring.NET">
+    <Position X="7.198" Y="1.344" Height="0.542" Width="1.544" />
+  </Comment>
+  <Class Name="SmartPartsFrame.Model.DatabaseTools.SQL.ConnectionModel" Collapsed="true">
+    <Position X="6.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgCAAAAAAgAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Model\DatabaseTools\SQL\ConnectionModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartPartsFrame.Model.DatabaseTools.SQL.SqlModel" Collapsed="true">
+    <Position X="4.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEIgSAAAACAAABACAAAAAECAAAggDQAhhBAAAAQAgAA=</HashCode>
+      <FileName>Model\DatabaseTools\SQL\SqlModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SmartPartsFrame.Model.DefaultModel" Collapsed="true">
+    <Position X="2.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\DefaultModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartPartsFrame.Presenter.DefaultPresenter" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAACAIAAA=</HashCode>
+      <FileName>Presenter\DefaultPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartPartsFrame.SmartPartsForm" Collapsed="true">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgoQAAAICAWAAAGAACSgAACAAAcAAAQACAAAABAAAA=</HashCode>
+      <FileName>SmartPartsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartPartsFrame.Properties.Settings" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartPartsFrame.SmartParts.Common.SmartPartAcivatedEventArgs" Collapsed="true">
+    <Position X="15.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAgAAAAAAAAAAAACAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\SmartParts\Common\SmartPartAcivatedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartPartsFrame.SmartParts.Common.SmartPartBase" Collapsed="true">
+    <Position X="1.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iACAAAAAACAAAAAADCCAAAACAACBAIAABAAAAAAAAAA=</HashCode>
+      <FileName>View\SmartParts\Common\SmartPartBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="1.033" />
+  </Class>
+  <Class Name="SmartPartsFrame.SmartParts.Common.SmartPartHost" Collapsed="true">
+    <Position X="1.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>View\SmartParts\Common\SmartPartHost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartPartsFrame.View.SmartParts.DefaultSmartPart" Collapsed="true">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEACAAABAAAACgAAACAAggAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\SmartParts\DefaultSmartPart.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.992" />
+  </Class>
+  <Interface Name="SmartPartsFrame.View.Interface.IDefaultView" Collapsed="true">
+    <Position X="5.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAEAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\Interface\IDefaultView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SmartPartsFrame.View.Interface.ISmartPartView" Collapsed="true">
+    <Position X="5.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAEQAAAQBggIBAHCIEAAQAAACEAAMIAAAgAAABAAA=</HashCode>
+      <FileName>View\Interface\ISmartPartView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

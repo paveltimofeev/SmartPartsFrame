@@ -1,0 +1,55 @@
+﻿View определяется как интерфейс, который Presenter будет использовать для получения и установки данных модели. 
+
+Реализация View будет содержать ссылку на класс Presenter’a и предоставлять Presenter’у ссылку на себя 
+(Формально параметром конструктора является интерфейс View, в то время, как в конструктор передается конкретная 
+реализация View). 
+
+Когда вызывается событие View, оно вызывает конкретный метод Presenter’а который не имеет параметров и не имеет 
+возвращаемого значения. Затем Presenter получает данные из View, через интерфейс. 
+
+Затем Presenter вызывает методы модели, и устанавливает данные из модели во View через интерфейс.
+
+--=============================================================================================================
+
+interface IView
+{
+		object Value {get; set;}
+		string Result {get; set;}
+		var Data {get; set;}
+		
+		void Refresh();
+}
+
+class View: IView
+{
+	Presenter presenter = new Presenter(this)
+
+	onViewChange()
+	{
+		presenter.Change();
+	}
+}
+
+class Presenter
+{	
+	IView view = null;
+	Model model = null;
+	
+	Presenter(IView view) 
+	{
+		this.view = view;
+	}
+	
+	Change()
+	{
+		model = new Model();
+		
+		view.Value = model.Value;
+		view.Result = model.Result;
+		view.Data = model.GetData();
+		
+		view.Refresh();
+	}
+}
+
+--=============================================================================================================
